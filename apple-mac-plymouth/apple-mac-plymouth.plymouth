@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=apple-mac-plymouth
+Description=Apple Mac Plymouth theme by - Navis Michael Bearly J
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/apple-mac-plymouth
+ScriptFile=/usr/share/plymouth/themes/apple-mac-plymouth/apple-mac-plymouth.script
