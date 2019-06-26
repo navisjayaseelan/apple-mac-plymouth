@@ -24,7 +24,7 @@ else
   	echo -e "${Text}Please Wait Until Installing Complete"
   sleep 1.5
   	echo -e "${NC}Copying All Apple Mac Plymouth file"
-  	cp -iRv applebearly /usr/share/plymouth/themes/
+  	cp -iRv apple-mac-plymouth /usr/share/plymouth/themes/
   sleep 1.5
   clear
   	echo -e "${Text}Please Wait Until Installing Complete"
