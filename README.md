@@ -12,7 +12,7 @@ EMail: michael.bearly@gmail.com
 * Open folder apple-mac-plymouth
 * Run install.sh
 
-**How to install (from terminal)
+**How to install (from terminal)**
 * Download apple-mac-plymouth.tar.xz file
 * Extract here
 * Open folder apple-mac-plymouth
@@ -23,11 +23,11 @@ EMail: michael.bearly@gmail.com
 * sudo ./install.sh 
 * Done
 
-**Tested on
+**Tested on**
 * Ubuntu 18.04 LTS
 * Xubuntu 18.04
 * Kubuntu 18.04
 * Linux Mint 19
 
-Any questions? Please contact me on :
+**TAny questions? Please contact me on :**
 * EMail - michael.bearly@gmail.com
