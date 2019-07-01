@@ -1,0 +1,55 @@
+#Aspect ratio 16:9
+#Aspect ratio 8:5
+
+/* the binary Great Common Divisor calculator */
+function gcd (u, v) {
+    if (u === v) return u;
+    if (u === 0) return v;
+    if (v === 0) return u;
+
+    if (~u & 1)
+        if (v & 1)
+            return gcd(u >> 1, v);
+        else
+            return gcd(u >> 1, v >> 1) << 1;
+
+    if (~v & 1) return gcd(u, v >> 1);
+
+    if (u > v) return gcd((u - v) >> 1, v);
+
+    return gcd((v - u) >> 1, u);
+}
+
+/* returns an array with the ratio */
+function ratio (w, h) {
+	var d = gcd(w,h);
+	return [w/d, h/d];
+}
+
+/* example */
+var r1 = ratio(1600, 900);
+var r2 = ratio(1440, 900);
+var r3 = ratio(1366, 768);
+var r4 = ratio(1280, 1024);
+var r5 = ratio(1280, 720);
+var r6 = ratio(1024, 768);
+
+
+/* will output this: 
+r1: [16, 9]
+r2: [8, 5]
+r3: [683, 384]
+r4: [5, 4]
+r5: [16, 9]
+r6: [4, 3]
+*/
+
+
+ratio(1920,1200)
+(2) [8, 5]
+ratio(192,120)
+(2) [8, 5]
+ratio(1920,1080)
+(2) [16, 9]
+ratio(192,108)
+(2) [16, 9]
