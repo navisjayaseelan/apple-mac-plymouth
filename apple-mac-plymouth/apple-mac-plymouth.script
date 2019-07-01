@@ -4,7 +4,7 @@
 # ------------------[ micheal.bearly@gmail.com ]------------------
 # ------------------------[ Thank you ]-----------------------
 
-aspectRatio = ratio(Window.GetWidth(),Window.GetHeight())
+aspectRatio = ratio(Window.GetWidth(),Window.GetHeight());
 if(aspectRatio[0] == 16 && aspectRatio[1] == 9)
   logo.image = Image("boot_16x9.png");
 if(aspectRatio[0] == 8 && aspectRatio[1] == 5)
@@ -19,7 +19,7 @@ Window.SetBackgroundBottomColor(0, 0, 0);
 
 if (Plymouth.GetMode () == "shutdown")
 {
-  aspectRatio = ratio(Window.GetWidth(),Window.GetHeight())
+  aspectRatio = ratio(Window.GetWidth(),Window.GetHeight());
   if(aspectRatio[0] == 16 && aspectRatio[1] == 9)
     logo.image = Image("boot_16x9.png");
   if(aspectRatio[0] == 8 && aspectRatio[1] == 5)
@@ -185,9 +185,7 @@ fun hide_message_callback (text)
     }
 }
 
-#----------------- the binary Great Common Divisor calculator -------------------
-
-fun gcd (u, v) {
+function gcd (u, v) {
     if (u === v) return u;
     if (u === 0) return v;
     if (v === 0) return u;
@@ -205,8 +203,7 @@ fun gcd (u, v) {
     return gcd((v - u) >> 1, u);
 }
 
-#----------------- an array with the ratio -------------------
-fun ratio (w, h) {
+function ratio (w, h) {
   var d = gcd(w,h);
   return [w/d, h/d];
 }
