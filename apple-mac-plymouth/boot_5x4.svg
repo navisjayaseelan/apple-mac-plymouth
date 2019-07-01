@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="182.85715"
+   height="146.28572"
+   viewBox="0 0 48.380952 38.704764"
+   version="1.1"
+   id="svg106"
+   inkscape:export-filename="/home/mikebearly/projects/apple-mac-plymouth/apple-mac-plymouth/boot_5x4.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="boot_5x4.svg">
+  <defs
+     id="defs100" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="160.98835"
+     inkscape:cy="43.991811"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata103">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-258.29519)">
+    <path
+       d="M 34.060123,281.9343 H 9.9869857 l 0.00319,-8.2e-4 H 34.031926 v -0.0525 c -0.550727,-1.10846 -0.801571,-2.84111 -0.590668,-4.2448 v -0.0525 h 0.0015 c 0.220239,-1.83795 1.404998,-3.71869 2.351858,-4.4006 0.01102,-0.008 0.02424,-0.0181 0.03688,-0.0283 v -0.002 h 0.0024 v 0 c 0.209913,-0.23121 0.808448,-0.71167 1.212893,-1.00246 -1.492917,-2.19537 -3.937571,-3.37984 -6.427048,-3.41771 -2.510012,-0.21102 -5.115277,1.58774 -6.519981,1.54655 -1.359209,0.0411 -3.41217,-1.58221 -5.578491,-1.47965 l -0.02149,-0.002 c -0.0483,0 -0.438656,0.0213 -0.438656,0.0213 -2.87164,0.0709 -5.417138,1.76233 -6.862523,4.32681 v 0.007 h -0.0087 v -0.007 c -0.571979,0.92381 -1.2576174,3.07805 -1.3600528,4.44108 v 0 0.0728 c -0.1385056,0.86503 -0.00482,3.16992 0.1508692,4.27851 v 0 c 0.00674,0.0194 0.00801,0.0397 0.00939,0.0557 l 0.00346,-8.2e-4 c 0.1211206,1.10513 0.6827566,3.24048 1.1037186,4.28416 v 0.009 h -0.0023 c 0.404041,1.15354 1.533035,3.31718 2.261922,4.42404 v 0.008 h 0.0076 c 1.471645,2.11189 3.204652,4.48573 5.48883,4.38382 2.207004,-0.0841 3.019496,-1.46505 5.677616,-1.4441 2.657026,-0.021 3.392056,1.37771 5.720027,1.38821 2.373807,-0.10183 3.844467,-2.21286 5.317144,-4.32793 0.720828,-1.0898 1.85199,-3.18708 2.251834,-4.4321 h 0.0058 c 0.04482,-0.13174 0.111765,-0.33388 0.159495,-0.4812 -1.561028,-0.44214 -3.31217,-2.49732 -3.924939,-3.86614"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.03677123"
+       id="path175"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 28.776138,265.29421 c 1.18332,-1.47632 2.045243,-3.50742 1.822681,-5.55503 -1.767506,0.0646 -3.872626,1.16498 -5.126637,2.65087 -1.129435,1.28005 -2.109866,3.39126 -1.828862,5.37745 1.921401,0.12722 3.896503,-0.98701 5.132818,-2.47329"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.03677123"
+       id="path171"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,35 +1,33 @@
 # ---------------------[ Apple Mac Plymouth Bar]------------------
-# -------------------------[version 1.0]------------------------
+# -------------------------[version 1.1]------------------------
 # ------------[ Created by Navis Michael Bearly ]------------
 # ------------------[ micheal.bearly@gmail.com ]------------------
 # ------------------------[ Thank you ]-----------------------
 
-logo.image = Image("boot.png");
 aspectRatio = ratio(Window.GetWidth(),Window.GetHeight())
 if(aspectRatio[0] == 16 && aspectRatio[1] == 9)
-  logo.image = Image("boot_192x108.png");
-if (aspectRatio[0] == 8 && aspectRatio[1] == 5)
-  logo.image = Image("boot_192x120.png");
+  logo.image = Image("boot_16x9.png");
+if(aspectRatio[0] == 8 && aspectRatio[1] == 5)
+  logo.image = Image("boot_16x10.png");
 if(aspectRatio[0] == 5 && aspectRatio[1] == 4)
-  logo.image = Image("boot_1280x1024.png");
+  logo.image = Image("boot_5x4.png");
 if(aspectRatio[0] == 4 && aspectRatio[1] == 3)
-  logo.image = Image("boot_1024x768.png");
+  logo.image = Image("boot_4x3.png");
 
 Window.SetBackgroundTopColor(0, 0, 0);
 Window.SetBackgroundBottomColor(0, 0, 0);
 
 if (Plymouth.GetMode () == "shutdown")
 {
-  logo.image = Image("boot.png");
   aspectRatio = ratio(Window.GetWidth(),Window.GetHeight())
   if(aspectRatio[0] == 16 && aspectRatio[1] == 9)
-    logo.image = Image("boot_192x108.png");
-  if (aspectRatio[0] == 8 && aspectRatio[1] == 5)
-    logo.image = Image("boot_192x120.png");
+    logo.image = Image("boot_16x9.png");
+  if(aspectRatio[0] == 8 && aspectRatio[1] == 5)
+    logo.image = Image("boot_16x10.png");
   if(aspectRatio[0] == 5 && aspectRatio[1] == 4)
-    logo.image = Image("boot_1280x1024.png");
+    logo.image = Image("boot_5x4.png");
   if(aspectRatio[0] == 4 && aspectRatio[1] == 3)
-    logo.image = Image("boot_1024x768.png");
+    logo.image = Image("boot_4x3.png");
 }
 
 logo.sprite = Sprite(logo.image);
