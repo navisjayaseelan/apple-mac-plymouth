@@ -3,6 +3,9 @@
 # ------------[ Created by Navis Michael Bearly ]------------
 # ------------------[ michael.bearly@gmail.com ]------------------
 
+(Only FEDORA) - Before run install.sh
+- Install plymouth-plugin-script
+
 How to install (from file manager)
 - Download apple-mac-plymouth.tar.xz file
 - Extract here
